@@ -157,8 +157,7 @@ h3,
 }
 
 #img-banner {
-    width: 225px;
-    height: 225px;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
