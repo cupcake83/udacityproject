@@ -178,10 +178,6 @@ h3 {
         text-align: left;
     }
 
-    a {
-        font-size: 1.5em;
-    }
-
     #img-banner {
         display: block;
         margin-left: 0;
@@ -212,7 +208,6 @@ h3 {
     .container {
         width: 960px;
     }
-
 
 @media (min-width: 1200px) {
 
