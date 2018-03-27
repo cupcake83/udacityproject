@@ -1,8 +1,6 @@
 html {
     font-family: Ubuntu, Roboto, Arial, sans-serif;
-    font-size: 10px;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
 }
 
 body {
@@ -10,47 +8,44 @@ body {
     font-family: Ubuntu, Roboto, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    color: #333333;
-    background-color: #ffffff;
+    color: #333;
+    background-color: #fff;
 }
 
 hr {
-    height: 8px;
-    background-color: grey;
+    height: 6px;
+    background-color: #333;
 }
 
-h1,
-.h1 {
+h1 {
     text-align: center;
+    text-transform: uppercase;
     font-size: 5em;
-    color: black;
+    color: #000;
     margin-top: 5px;
     margin-bottom: 0;
-    text-transform: uppercase;
 }
 
-h2,
-.h2 {
+h2 {
     text-align: center;
+    text-transform: capitalize;
     font-family: inherit;
     font-size: 1.25em;
     color: #02b3e4;
     margin-top: 0;
-    text-transform: capitalize;
 }
 
-h3,
-.h3 {
+h3 {
     text-align: center;
     font-size: 4em;
-    color: gray;
+    color: #333;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -61,11 +56,6 @@ h3,
 .row {
     width: 100%;
     height: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
 }
@@ -128,11 +118,6 @@ h3,
     width: 100%;
     max-width: 100%;
     height: auto;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
 }
@@ -156,7 +141,7 @@ h3,
 
 .row-feature {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .img-feature {
@@ -172,11 +157,10 @@ h3,
     text-align: center;
 }
 
-/*Tablet screen and bigger*/
 @media (min-width: 768px) {
 
     .container {
-        width: 750px;
+        width: 740px;
     }
 
     h1 {
@@ -223,16 +207,16 @@ h3,
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
 
     .container {
-        width: 970px;
+        width: 960px;
     }
 
 
 @media (min-width: 1200px) {
 
     .container {
-        width: 1170px;
+        width: 1160px;
     }
 }
