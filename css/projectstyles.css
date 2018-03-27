@@ -1,8 +1,3 @@
-html {
-    font-family: Ubuntu, Roboto, Arial, sans-serif;
-    font-size: 14px;
-}
-
 body {
     margin: 0;
     font-family: Ubuntu, Roboto, Arial, sans-serif;
@@ -139,18 +134,18 @@ h3 {
     margin-top: 15px;
 }
 
-.row-additional {
+.row-feature {
     width: 100%;
     margin-bottom: 15px;
 }
 
-.img-additional {
+.img-feature {
     width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.text-additional {
+.text-feature {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -194,11 +189,11 @@ h3 {
         margin-top: 10px;
     }
 
-    .row-additional {
+    .row-feature {
         width: 33.33333333%;
     }
 
-    .img-additional {
+    .img-feature {
         width: 90%;
     }
 }
