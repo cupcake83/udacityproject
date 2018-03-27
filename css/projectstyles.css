@@ -184,7 +184,7 @@ h3 {
         width: auto;
     }
 
-    #text-banner {
+    #text-head {
         width: 50%;
         margin-right: 0;
         margin-top: 10px;
@@ -194,11 +194,11 @@ h3 {
         margin-top: 10px;
     }
 
-    .row-feature {
+    .row-additional {
         width: 33.33333333%;
     }
 
-    .img-feature {
+    .img-additional {
         width: 90%;
     }
 }
